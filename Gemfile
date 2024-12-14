@@ -63,6 +63,7 @@ group :development, :test do
 
   # Tests
   gem 'capybara', '~> 3.40'
+  gem 'guard-rspec', '~> 4.7'
   gem 'rspec-rails', '~> 7.1'
 
   # Preview components
