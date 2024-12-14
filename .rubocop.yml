@@ -1,0 +1,48 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-capybara
+  - rubocop-performance
+  - rubocop-rspec_rails
+
+AllCops:
+  TargetRubyVersion: 3.3
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountAsOne:
+    - array
+    - heredoc
+    - method_call
+  Exclude:
+    - db/migrate/*.rb
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Metrics/BlockLength:
+  Exclude:
+    - lib/tasks/**/*.rake
+    - config/routes.rb
+    - Guardfile
+    - config/environments/development.rb
+
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineAssignmentLayout:
+  EnforcedStyle: same_line
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Rails/SkipsModelValidations:
+  Exclude:
+    - db/migrate/*.rb
+    - '**/*_spec.rb'
