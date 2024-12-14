@@ -50,21 +50,20 @@ group :development, :test do
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem 'brakeman', require: false
+
+  # Linting
+  gem 'rubocop', '~> 1.69'
+  gem 'rubocop-capybara', '~> 2.21'
+  gem 'rubocop-performance', '~> 1.23'
+  gem 'rubocop-rails', '~> 2.27'
+  gem 'rubocop-rspec', '~> 3.3'
+  gem 'rubocop-rspec_rails', '~> 2.30'
+
+  # Tests
+  gem 'rspec-rails', '~> 7.1'
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
 end
-
-gem 'rubocop', '~> 1.69'
-
-gem 'rubocop-rails', '~> 2.27'
-
-gem 'rubocop-rspec', '~> 3.3'
-
-gem 'rubocop-capybara', '~> 2.21'
-
-gem 'rubocop-performance', '~> 1.23'
-
-gem 'rubocop-rspec_rails', '~> 2.30'
