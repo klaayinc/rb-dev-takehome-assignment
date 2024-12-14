@@ -62,6 +62,7 @@ group :development, :test do
   gem 'rubocop-rspec_rails', '~> 2.30'
 
   # Tests
+  gem 'capybara', '~> 3.40'
   gem 'rspec-rails', '~> 7.1'
 
   # Preview components
