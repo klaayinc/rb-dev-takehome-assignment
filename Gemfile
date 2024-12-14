@@ -61,6 +61,9 @@ group :development, :test do
 
   # Tests
   gem 'rspec-rails', '~> 7.1'
+
+  # Preview components
+  gem 'lookbook', '~> 2.3'
 end
 
 group :development do
