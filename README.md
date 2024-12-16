@@ -6,6 +6,8 @@ Please note the time you have spent on this assignment in your solution.
 
 The goal is to have a technical conversation about your solution with one of your potential future colleagues, so please show as much or as little of your technical depth and breadth as you feel is relevant.
 
+Please make your solution available to us at least the day before the technical interview so we have a reasonable chance to read through it and prepare.
+
 Requirements:
 
  * All data must be persisted in the database.
