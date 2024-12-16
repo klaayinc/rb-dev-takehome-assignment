@@ -4,7 +4,7 @@ Build a chatbot using Rails 8+, Stimulus, and Hotwired.
 
 Please note the time you have spent on this assignment in your solution.
 
-The goal is to have a technical conversation about your solution with one of your potential future colleagues.
+The goal is to have a technical conversation about your solution with one of your potential future colleagues, so please show as much or as little of your technical depth and breadth as you feel is relevant.
 
 Requirements:
 
